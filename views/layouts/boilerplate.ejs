@@ -13,7 +13,8 @@
 <body class="d-flex flex-column vh-100">
     <%- include('../partials/navbar') %>
         <main class="container mt-5">
-            <%- body %>
+            <%- include('../partials/flash') %>
+                <%- body %>
         </main>
         <%- include('../partials/footer') %>
 
@@ -24,8 +25,7 @@
                 integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
                 crossorigin="anonymous"></script>
 
-
-            <script src="/validateForms.js"></script>
+            <script src="/javascripts/validateForms.js"></script>
 
 </body>
 
