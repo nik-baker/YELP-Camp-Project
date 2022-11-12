@@ -6,6 +6,9 @@ const { isLoggedIn, isAuthor, validateCampground } = require('../middleware');
 const multer = require('multer');
 const { storage } = require('../cloudinary');
 const upload = multer({ storage });
+const Campground = require('../models/campground');
+
+
 
 
 // THIS IS THE INDEX PAGE & POST FOR CREATE A NEW CAMPGROUND
